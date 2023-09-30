@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cus-nav-1 {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem 2rem;
+    gap: 4rem;
+    position: sticky;
+}
+
+.cus-nav-1 a:hover {
+    color: red;
+    cursor: pointer;
+}
+
+
+/* mid-section */
+
+
+/* hero-img */
+
+#hero-row {
+    min-height: fit-content;
+}
+
+#hero-img {
+    background: url('https://images.unsplash.com/photo-1586478466288-d5ac79a04a68?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1432&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 10;
+    position: relative;
+    min-height: 90.5vh;
+}
+
+#hero-img-blur {
+    background-color: black;
+    z-index: 1;
+    opacity: 0.4;
+}
+
+#hero-img-blur>h1 {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    color: white;
+    background-color: rgb(27, 42, 43);
+}
+
+
+/* footer */
+
+.footer {
+    background: black;
+}
+
+.footer>div>div {
+    padding: 1rem 2rem;
+}
+
+.footer h4 {
+    color: white;
+    padding: 0rem 1rem;
+}
+
+#right-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-transform: capitalize;
+}
+
+#sub-footer {
+    background: black;
+}
+
+#sub-footer>div>div>p {
+    text-align: center;
+    color: white;
+}
+
+
+/* form login/signup*/
+
+.form {
+    padding: 2rem;
+    background: rgb(32, 32, 32);
+    color: white;
+    border-radius: 10px;
+    margin: 2rem 0;
+    display: block;
+    margin: 2rem auto;
+    width: 60%;
+}
+
+.form div {
+    margin-bottom: 2rem;
+}
+
+.form div label {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#btn-submit {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+/* for form validation */
+
+.error {
+    display: none;
+    font-size: 0.8em;
+    position: relative;
+}
+
+input:invalid:not(:focus):not(:placeholder-shown)~.error {
+    display: block;
+    background: red;
+    color: white;
+    margin-top: 10px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+#btn-login {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.Question span {
+    font-size: 1.2rem;
+}
+
+.Question>a {
+    color: white;
+}
+
+.Question>a:hover {
+    padding: 5px 0;
+}
+
+
+/* expense */
+
+#btn-add-expense {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#product-category {
+    width: 100%;
+    height: 2.7rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
