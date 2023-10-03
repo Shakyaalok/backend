@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.BG-1 {
+    padding: 2rem 2rem;
+    background: rgb(67, 99, 30);
+    margin-top: 1rem;
+    /* padding: 1rem; */
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 1rem;
+}
+
+.BG-2 {
+    flex-basis: 2;
+    max-width: 60%;
+}
+
+.btn-green {
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.li>ul {
+    list-style: none;
+}
+
+.btn {
+    border: 1px solid rgb(135, 250, 4);
+    background: rgb(109, 180, 27);
+    color: white;
+}
+
+.btn:hover {
+    border: 1px solid rgb(135, 250, 4);
+    background: rgb(95, 170, 9);
+}
+
+.card li {
+    list-style: none;
+}
+
+.btn-hidden {
+    display: none;
+}
+
+
+/* for form validation */
+
+.error {
+    display: none;
+    font-size: 0.8em;
+    position: relative;
+}
+
+input:invalid:not(:focus):not(:placeholder-shown)~.error {
+    display: block;
+    color: red;
+}
+
+
+/* expense */
